@@ -1,0 +1,13 @@
+{
+  "name": "Elementum",
+  "short_name": "Elementum",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "background_color": "#07070a",
+  "description": "Periodic table",
+
+  "icons": [ {
+    "src": "ico.png",
+    "sizes": "72x72 96x96 144x144 168x168 192x192"
+  }]
+}

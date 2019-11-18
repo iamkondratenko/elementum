@@ -1,0 +1,640 @@
+
+/*All items*/
+
+.button-on.all-items-filter-on {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #ffffff;
+}
+
+input#all-items-filter-on:checked ~ .periodic > .header > .filter-tag > .button-on.all-items-filter-on {
+    display: block;
+    z-index: 1001;
+    background: #ffffff1f;
+    border: 1px solid #ffffff00;
+}
+
+/*Alkali metal*/
+
+.button-on.alkali-metal {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #E73C3E;
+}
+
+.alkali-metal:hover ~ .header > .filter-tag > .button-on.alkali-metal,
+.button-on.alkali-metal:hover {
+    background: #E73C3E40;
+    border: 1px solid rgba(231, 60, 63, 0);
+    border-bottom: 4px solid #E73C3E;
+}
+
+input#alkali-metal-filter-on:checked ~ .periodic > .header > .filter-tag > .button-on.alkali-metal {
+    display: block;
+    z-index: 1001;
+    background: #E73C3E;
+    border: 1px solid #E73C3E;
+}
+
+input#alkali-metal-filter-on:checked  ~ .periodic > :not(.alkali-metal) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+/* input#alkali-metal-filter-on:hover ~ .periodic > :not(.alkali-metal) {
+    opacity: 0.7;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+} */
+
+
+/*Alkaline earth metal*/
+
+.button-on.alkaline-earth-metal {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #f56f27;
+}
+
+.alkaline-earth-metal:hover ~ .header > .filter-tag > .button-on.alkaline-earth-metal,
+.button-on.alkaline-earth-metal:hover {
+    background: #f56f2740;
+    border: 1px solid #f56f2700;
+    border-bottom: 4px solid #f56f27;
+}
+
+input#alkaline-earth-metal-filter-on:checked ~ .periodic > .header > .filter-tag > .button-on.alkaline-earth-metal {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    background: #f56f27;
+    border: 1px solid #f56f27;
+}
+
+input#alkaline-earth-metal-filter-on:checked  ~ .periodic > :not(.alkaline-earth-metal) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+/* input#alkaline-earth-metal-filter-on:hover ~ .periodic > :not(.alkaline-earth-metal) {
+    opacity: 0.7;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+} */
+
+
+/*Transition metal*/
+
+.button-on.transition-metal {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #2346bf;
+}
+
+.transition-metal:hover ~ .header > .filter-tag > .button-on.transition-metal,
+.button-on.transition-metal:hover {
+    background: #2346bf40;
+    border: 1px solid #2345bf00;
+    border-bottom: 4px solid #2346bf;
+}
+
+input#transition-metal-filter-on:checked ~ .periodic > .header > .filter-tag > .button-on.transition-metal {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    background: #2346bf;
+    border: 1px solid #2346bf;
+}
+
+input#transition-metal-filter-on:checked  ~ .periodic > :not(.transition-metal) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+/* input#transition-metal-filter-on:hover ~ .periodic > :not(.transition-metal) {
+    opacity: 0.7;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+} */
+
+
+/*Post-transition metal*/
+
+.button-on.post-​transition-metal {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #0085ff;
+}
+
+.post-​transition-metal:hover ~ .header > .filter-tag > .button-on.post-​transition-metal,
+.button-on.post-​transition-metal:hover {
+    background: #0085ff40;
+    border: 1px solid #0084ff00;
+    border-bottom: 4px solid #0085ff;
+}
+
+input#post-​transition-metal-filter-on:checked ~ .periodic > .header > .filter-tag > .button-on.post-​transition-metal {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    background: #0085ff;
+    border: 1px solid #0085ff;
+}
+
+input#post-​transition-metal-filter-on:checked  ~ .periodic > :not(.post-​transition-metal) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+/* input#post-​transition-metal-filter-on:hover ~ .periodic > :not(.post-​transition-metal) {
+    opacity: 0.7;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+} */
+
+/*Metalloid*/
+
+.button-on.metalloid {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #54ccee;
+}
+
+.metalloid:hover ~ .header > .filter-tag > .button-on.metalloid,
+.button-on.metalloid:hover {
+    background: #54ccee6b;
+    border: 1px solid #54ccee00;
+    border-bottom: 4px solid #54ccee;
+}
+
+input#metalloid-filter-on:checked ~ .periodic > .header > .filter-tag > .button-on.metalloid {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    background: #54ccee;
+    border: 1px solid #54ccee;
+}
+
+input#metalloid-filter-on:checked  ~ .periodic > :not(.metalloid) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+/* 
+input#metalloid-filter-on:hover ~ .periodic > :not(.metalloid) {
+    opacity: 0.7;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+} */
+
+/*Reactive nonmetal*/
+
+.button-on.reactive-nonmetal {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #80ad2c;
+}
+
+.reactive-nonmetal:hover ~ .header > .filter-tag > .button-on.reactive-nonmetal,
+.button-on.reactive-nonmetal:hover {
+    background: #80ad2c40;
+    border: 1px solid #80ad2c00;
+    border-bottom: 4px solid #80ad2c;   
+}
+
+input#reactive-nonmetal-filter-on:checked ~ .periodic > .header > .filter-tag > .button-on.reactive-nonmetal {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    background: #80ad2c;
+    border: 1px solid #80ad2c;
+}
+
+input#reactive-nonmetal-filter-on:checked  ~ .periodic > :not(.reactive-nonmetal) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+/* input#reactive-nonmetal-filter-on:hover ~ .periodic > :not(.reactive-nonmetal) {
+    opacity: 0.7;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+} */
+
+/*Halogens*/
+
+.button-on.halogens {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #fdb200;
+}
+
+.halogens:hover ~ .header > .filter-tag > .button-on.halogens,
+.button-on.halogens:hover {
+    background: #fdb20040;
+    border: 1px solid #fdb10000;
+    border-bottom: 4px solid #fdb200;
+}
+
+input#halogens-filter-on:checked ~ .periodic > .header > .filter-tag > .button-on.halogens {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    background: #fdb200;
+    border: 1px solid #fdb200;
+}
+
+input#halogens-filter-on:checked  ~ .periodic > :not(.halogens) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+/* input#halogens-filter-on:hover ~ .periodic > :not(.halogens) {
+    opacity: 0.7;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+} */
+
+
+/*Noble gas*/
+
+.button-on.noble-gas {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #b034fe;
+}
+
+.noble-gas:hover ~ .header > .filter-tag > .button-on.noble-gas,
+.button-on.noble-gas:hover {
+    background: #b034fe40;
+    border: 1px solid #b134fe00;
+    border-bottom: 4px solid #b034fe;
+}
+
+input#noble-gas-filter-on:checked ~ .periodic > .header > .filter-tag > .button-on.noble-gas {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    background: #b034fe;
+    border: 1px solid #b034fe;
+}
+
+input#noble-gas-filter-on:checked  ~ .periodic > :not(.noble-gas) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+/* input#noble-gas-filter-on:hover ~ .periodic > :not(.noble-gas) {
+    opacity: 0.7;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+} */
+
+
+/*lan­thanide*/
+
+.button-on.lan­thanide {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #3cff7f;
+}
+
+.lan­thanide:hover ~ .header > .filter-tag > .button-on.lan­thanide,
+.button-on.lan­thanide:hover {
+    background: #3cff7f40;
+    border: 1px solid #3cff8000;
+    border-bottom: 4px solid #3cff7f;
+}
+
+input#lan­thanide-filter-on:checked ~ .periodic > .header > .filter-tag > .button-on.lan­thanide {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    background: #3cff7f;
+    border: 1px solid #3cff7f;
+}
+
+/* input#lan­thanide-filter-on:hover ~ .periodic > :not(.lan­thanide) {
+    opacity: 0.7;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+} */
+
+input#lan­thanide-filter-on:checked  ~ .periodic > :not(.lan­thanide) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+
+/*actinide*/
+
+.button-on.actinide {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #29712c;
+}
+
+.actinide:hover ~ .header > .filter-tag > .button-on.actinide,
+.button-on.actinide:hover {
+    background: #29712c40;
+    border: 1px solid #29712b00;
+    border-bottom: 4px solid #29712c
+}
+
+input#actinide-filter-on:checked ~ .periodic > .header > .filter-tag > .button-on.actinide {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    background: #29712c;
+    border: 1px solid #29712c;
+}
+
+/* input#actinide-filter-on:hover ~ .periodic > :not(.actinide) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+} */
+
+input#actinide-filter-on:checked  ~ .periodic > :not(.actinide) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+
+
+
+
+
+
+
+/*Alkali metal*/
+
+.button-on.s-block {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #E73C3E;
+}
+
+.s-block:hover ~ .header > .filter-blocks > .button-on.s-block,
+.button-on.s-blocks:hover {
+    background: #E73C3E40;
+    border: 1px solid rgba(231, 60, 63, 0);
+    border-bottom: 4px solid #E73C3E;
+}
+
+input#s-block-filter-on:checked ~ .periodic > .header > .filter-blocks > .button-on.s-block {
+    display: block;
+    z-index: 1001;
+    background: #E73C3E;
+    border: 1px solid #E73C3E;
+}
+
+input#s-block-filter-on:checked  ~ .periodic > :not(.s-block) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+
+
+/*Alkaline earth metal*/
+
+.button-on.p-block {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #f56f27;
+}
+
+.p-block:hover ~ .header > .filter-blocks > .button-on.p-block,
+.button-on.p-block:hover {
+    background: #f56f2740;
+    border: 1px solid #f56f2700;
+    border-bottom: 4px solid #f56f27;
+}
+
+input#p-block-filter-on:checked ~ .periodic > .header > .filter-blocks > .button-on.p-block {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    background: #f56f27;
+    border: 1px solid #f56f27;
+}
+
+input#p-block-filter-on:checked ~ .periodic > :not(.p-block) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+/* input#alkaline-earth-metal-filter-on:hover ~ .periodic > :not(.alkaline-earth-metal) {
+    opacity: 0.7;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+} */
+
+
+/*Transition metal*/
+
+.button-on.d-block {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #2346bf;
+}
+
+.d-block:hover ~ .header > .filter-blocks > .button-on.d-block,
+.button-on.d-block:hover {
+    background: #2346bf40;
+    border: 1px solid #2345bf00;
+    border-bottom: 4px solid #2346bf;
+}
+
+input#d-block-filter-on:checked ~ .periodic > .header > .filter-blocks > .button-on.d-block {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    background: #2346bf;
+    border: 1px solid #2346bf;
+}
+
+input#d-block-filter-on:checked  ~ .periodic > :not(.d-block) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+
+
+.button-on.f-block {
+    border: 1px solid #0e0e0e;
+    border-bottom: 4px solid #80ad2c;
+}
+
+.f-block:hover ~ .header > .filter-blocks > .button-on.f-block,
+.button-on.f-block:hover {
+    background: #80ad2c40;
+    border: 1px solid #80ad2c00;
+    border-bottom: 4px solid #80ad2c;   
+}
+
+input#f-block-filter-on:checked ~ .periodic > .header > .filter-blocks > .button-on.f-block {
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    background: #80ad2c;
+    border: 1px solid #80ad2c;
+}
+
+input#f-block-filter-on:checked  ~ .periodic > :not(.f-block) {
+    opacity: 0.4;
+    filter: grayscale(1);
+    transition-duration: 300ms;
+}
+
+
+
+input#switch-filter-type-blocks:checked ~ .periodic > .neutral {
+    background-image: linear-gradient(#171717 95%, #fff 5%);
+}
+
+input#switch-filter-type-blocks:checked ~ .periodic > .s-block {
+    background-image: linear-gradient(#171717 95%, #E73C3E 5%);
+}
+
+input#switch-filter-type-blocks:checked ~ .periodic > .p-block {
+    background-image: linear-gradient(#171717 95%, #f56f27 5%);
+}
+input#switch-filter-type-blocks:checked ~ .periodic > .d-block {
+    background-image: linear-gradient(#171717 95%, #2346bf 5%);
+}
+input#switch-filter-type-blocks:checked ~ .periodic > .f-block {
+    background-image: linear-gradient(#171717 95%, #a8e733 5%);
+}
+
+
+
+/*LOGIC CSS*/
+
+  
+  .overlay:target ~ div {
+      position: absolute;
+      padding-right: calc(30vw);
+  }
+  
+  .overlay
+  {
+      display: none;
+      opacity: 0;
+      position: absolute;
+      top: 9999px;
+      width: 100%;
+  }
+
+  .overlay::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .overlay:target
+  {
+    animation-duration: 0.5s;
+    animation-name: fadeInFromNone;
+    background-color: #0d0d0d;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    overflow: auto;
+    box-shadow: 6px 0px 12px #000;
+  }
+
+ 
+/*Open details*/  
+*:target
+  {
+      display: block;
+  }
+
+
+/*Menu's logic*/
+input#switch-filter-hide:checked ~ .periodic > .header > .main-menu-hide {
+    display: none;
+}
+
+input#switch-filter-show:checked ~ .periodic > .header > .main-menu-show {
+    display: none;
+}
+
+input#switch-filter-hide:checked ~ .periodic > .header > .main-menu-popup {
+    /* display: none; */
+    opacity: 0;
+    left: -500px;
+    transition-duration: 500ms;
+}
+
+input#switch-filter-show:checked ~ .periodic > .header > .main-menu-popup {
+    /* display: block; */
+    opacity: 1;
+    transition-duration: 500ms;
+    z-index: 999;
+}
+
+input#switch-filter-type-category:checked ~ .periodic > .header > .filter-blocks {
+    display: none;
+}
+
+input#switch-filter-type-blocks:checked ~ .periodic > .header > .filter-tag {
+    display: none;
+}
+
+
+
+
+/*Service css*/
+input[type="radio" i] {
+    position: fixed;
+    z-index: 0;
+    left: -5000px;
+}
+
+label {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .overlay:target {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        position: absolute;
+        overflow: unset;
+    }
+
+    .overlay:target ~ div {
+        display: none;
+    }
+}
+
+
+
+/*Animation css*/
+
+@keyframes fadeInFromNone {
+    from {
+      display: none;
+      opacity: 0;
+    }
+    1% {
+       display: none;
+      opacity: 0;
+    }
+    to {
+       display: block;
+      opacity: 1;
+    }
+  }
+
+
+.fadeInFromNone {
+    animation-name: fadeInFromNone;
+    animation-duration: 0.7ms;
+}
+
