@@ -717,8 +717,8 @@ input#all-items-filter-on:checked ~ .periodic > .header > .filter-tag > .button-
 
 .alkali-metal:hover ~ .header > .filter-tag > .button-on.alkali-metal,
 .button-on.alkali-metal:hover {
-    background: #E73C3E40;
-    border: 1px solid rgba(231, 60, 63, 0);
+    background: #e73c3f;
+    border: 1px solid rgb(231, 60, 63);
     border-bottom: 4px solid #E73C3E;
 }
 
@@ -751,8 +751,8 @@ input#alkali-metal-filter-on:checked  ~ .periodic > :not(.alkali-metal) {
 
 .alkaline-earth-metal:hover ~ .header > .filter-tag > .button-on.alkaline-earth-metal,
 .button-on.alkaline-earth-metal:hover {
-    background: #f56f2740;
-    border: 1px solid #f56f2700;
+    background: #f56f27;
+    border: 1px solid #f56f27;
     border-bottom: 4px solid #f56f27;
 }
 
@@ -786,8 +786,8 @@ input#alkaline-earth-metal-filter-on:checked  ~ .periodic > :not(.alkaline-earth
 
 .transition-metal:hover ~ .header > .filter-tag > .button-on.transition-metal,
 .button-on.transition-metal:hover {
-    background: #2346bf40;
-    border: 1px solid #2345bf00;
+    background: #2345bf;
+    border: 1px solid #2345bf;
     border-bottom: 4px solid #2346bf;
 }
 
@@ -821,8 +821,8 @@ input#transition-metal-filter-on:checked  ~ .periodic > :not(.transition-metal) 
 
 .post-​transition-metal:hover ~ .header > .filter-tag > .button-on.post-​transition-metal,
 .button-on.post-​transition-metal:hover {
-    background: #0085ff40;
-    border: 1px solid #0084ff00;
+    background: #0084ff;
+    border: 1px solid #0084ff;
     border-bottom: 4px solid #0085ff;
 }
 
@@ -855,8 +855,8 @@ input#post-​transition-metal-filter-on:checked  ~ .periodic > :not(.post-​tr
 
 .metalloid:hover ~ .header > .filter-tag > .button-on.metalloid,
 .button-on.metalloid:hover {
-    background: #54ccee6b;
-    border: 1px solid #54ccee00;
+    background: #54cdee;
+    border: 1px solid #54cdee;
     border-bottom: 4px solid #54ccee;
 }
 
@@ -889,8 +889,8 @@ input#metalloid-filter-on:hover ~ .periodic > :not(.metalloid) {
 
 .reactive-nonmetal:hover ~ .header > .filter-tag > .button-on.reactive-nonmetal,
 .button-on.reactive-nonmetal:hover {
-    background: #80ad2c40;
-    border: 1px solid #80ad2c00;
+    background: #80ad2c;
+    border: 1px solid #80ad2c;
     border-bottom: 4px solid #80ad2c;   
 }
 
@@ -923,8 +923,8 @@ input#reactive-nonmetal-filter-on:checked  ~ .periodic > :not(.reactive-nonmetal
 
 .halogens:hover ~ .header > .filter-tag > .button-on.halogens,
 .button-on.halogens:hover {
-    background: #fdb20040;
-    border: 1px solid #fdb10000;
+    background: #fdb100;
+    border: 1px solid #fdb100;
     border-bottom: 4px solid #fdb200;
 }
 
@@ -958,8 +958,8 @@ input#halogens-filter-on:checked  ~ .periodic > :not(.halogens) {
 
 .noble-gas:hover ~ .header > .filter-tag > .button-on.noble-gas,
 .button-on.noble-gas:hover {
-    background: #b034fe40;
-    border: 1px solid #b134fe00;
+    background: #b134fe;
+    border: 1px solid #b134fe;
     border-bottom: 4px solid #b034fe;
 }
 
@@ -988,22 +988,22 @@ input#noble-gas-filter-on:checked  ~ .periodic > :not(.noble-gas) {
 
 .button-on.lan­thanide {
     border: 1px solid #0e0e0e;
-    border-bottom: 4px solid #3cff7f;
+    border-bottom: 4px solid #26da65;
 }
 
 .lan­thanide:hover ~ .header > .filter-tag > .button-on.lan­thanide,
 .button-on.lan­thanide:hover {
-    background: #3cff7f40;
-    border: 1px solid #3cff8000;
-    border-bottom: 4px solid #3cff7f;
+    background: #26da65;
+    border: 1px solid #26da65;
+    border-bottom: 4px solid #26da65;
 }
 
 input#lan­thanide-filter-on:checked ~ .periodic > .header > .filter-tag > .button-on.lan­thanide {
     display: block;
     cursor: pointer;
     z-index: 1001;
-    background: #3cff7f;
-    border: 1px solid #3cff7f;
+    background: #26da65;
+    border: 1px solid #26da65;
 }
 
 /* input#lan­thanide-filter-on:hover ~ .periodic > :not(.lan­thanide) {
@@ -1028,8 +1028,8 @@ input#lan­thanide-filter-on:checked  ~ .periodic > :not(.lan­thanide) {
 
 .actinide:hover ~ .header > .filter-tag > .button-on.actinide,
 .button-on.actinide:hover {
-    background: #29712c40;
-    border: 1px solid #29712b00;
+    background: #29712c;
+    border: 1px solid #29712c;
     border-bottom: 4px solid #29712c
 }
 
@@ -1069,8 +1069,8 @@ input#actinide-filter-on:checked  ~ .periodic > :not(.actinide) {
 
 .s-block:hover ~ .header > .filter-blocks > .button-on.s-block,
 .button-on.s-blocks:hover {
-    background: #E73C3E40;
-    border: 1px solid rgba(231, 60, 63, 0);
+    background: #E73C3E;
+    border: 1px solid #E73C3E;
     border-bottom: 4px solid #E73C3E;
 }
 
@@ -1098,8 +1098,8 @@ input#s-block-filter-on:checked  ~ .periodic > :not(.s-block) {
 
 .p-block:hover ~ .header > .filter-blocks > .button-on.p-block,
 .button-on.p-block:hover {
-    background: #f56f2740;
-    border: 1px solid #f56f2700;
+    background: #f56f27;
+    border: 1px solid #f56f27;
     border-bottom: 4px solid #f56f27;
 }
 
@@ -1133,8 +1133,8 @@ input#p-block-filter-on:checked ~ .periodic > :not(.p-block) {
 
 .d-block:hover ~ .header > .filter-blocks > .button-on.d-block,
 .button-on.d-block:hover {
-    background: #2346bf40;
-    border: 1px solid #2345bf00;
+    background: #2346bf;
+    border: 1px solid #2345bf;
     border-bottom: 4px solid #2346bf;
 }
 
@@ -1161,8 +1161,8 @@ input#d-block-filter-on:checked  ~ .periodic > :not(.d-block) {
 
 .f-block:hover ~ .header > .filter-blocks > .button-on.f-block,
 .button-on.f-block:hover {
-    background: #80ad2c40;
-    border: 1px solid #80ad2c00;
+    background: #80ad2c;
+    border: 1px solid #80ad2c;
     border-bottom: 4px solid #80ad2c;   
 }
 
